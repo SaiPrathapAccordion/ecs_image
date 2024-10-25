@@ -3,7 +3,7 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: "arn:aws:ecs:ap-south-1:864899837235:task-definition/mytaskdefforecs:1"
+        TaskDefinition: "arn:aws:ecs:ap-south-1:864899837235:task-definition/prathap-task-def-ecs:1"
         LoadBalancerInfo:
-          ContainerName: "ecs-cicd-container"
+          ContainerName: "prathap-ecs-cluster"
           ContainerPort: 80
